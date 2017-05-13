@@ -47,7 +47,7 @@ chmod +x electron-icon-generator-script.sh
 ``dstpath`` - The destination path where the icons will be generated.
 
 ### Author
-Petar Mihaylov (petarmihaylov.me)
+Petar Mihaylov ([petarmihaylov.me](http://petarmihaylov.me))
 
 ### License
 [MIT](https://opensource.org/licenses/MIT)
