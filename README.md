@@ -1,15 +1,17 @@
 # Electron Icon Generator
 
-### Description
-
 ![Electron Icon Generator Demo](https://github.com/petarmihaylov/electron-icon-generator/raw/master/demo.gif)
 
 ### Description
 
 This script aims to make generating icons for Electron projects easier.
 
+At it's stat it generates a full set of icons for a Mac application in an .iconset folder. The icons can then be converted to a .icns file with ``iconutil -c icns path/to/icon.iconset``
+
+The script also generates a full set of icons for an Electron application.
+
 ### Prerequisites
-This script is dependent on ImageMagick. You must install ImageMagick first
+This script is dependent on ImageMagick. You must install ImageMagick first.
 
 #### ImageMagick Website
 [http://www.imagemagick.org](http://www.imagemagick.org)
@@ -20,10 +22,10 @@ Download the install ImageMagic from their website.
 #### On Linux/Mac
 Most Linux distributions provide ImageMagick as a package.
 
-| **OS**                  | **Command**                      |
-|-------------------------|----------------------------------|
-| Debian/Ubuntu/Mint  | ``sudo apt-get install imagemagick`` |
-| Fedora/Red Hat      | ``sudo yum install imagemagick``     |
+| **OS**                                  | **Command**                          |
+|-----------------------------------------|--------------------------------------|
+| Debian/Ubuntu/Mint                      | ``sudo apt-get install imagemagick`` |
+| Fedora/Red Hat                          | ``sudo yum install imagemagick``     |
 | MacOS with [Homebrew](https://brew.sh/) | ``sudo brew install imagemagick``    |
 
 ### Usage
