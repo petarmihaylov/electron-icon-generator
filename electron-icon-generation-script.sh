@@ -54,17 +54,24 @@ USAGE:
     $0 srcfile dstpath
 
 DESCRIPTION:
-    This script aim to generate MacOS app icons easier.
+    This script aim to generate icons for Electron projects easier.
 
-    srcfile - The source png image. Preferably above 1024x1024
+    srcfile - The source png image. Minimum 1024x1024 pixels.
     dstpath - The destination path where the icons will be generated.
 
-    This script is dependent on ImageMagick. So you must install ImageMagick first
-    If you are using Homebrew, you can use 'sudo brew install ImageMagick' to install it.#
-##
+PREREQUISITES:
+    This script is dependent on ImageMagick. You must install ImageMagick first
+
+    ImageMagick Website:
+    http://www.imagemagick.org
+
+    See https://github.com/petarmihaylov/electron-icon-generator for more details.
+
+    You can use Homebrew on a Mac to get ImageMagick.
+
 AUTHOR:
     Petar Mihaylov (petarmihaylov.me)
-#
+
 LICENSE:
     MIT
 
